@@ -16,20 +16,12 @@ Visit our official GitHub Pages site to download the files or view the guide:
 
 ---
 
-## 📥 How to Get the Files
+## 📥 How to Download the Rollback Package
 
-You can get the files directly from this repository:
+Since the package is large (~6GB), it is hosted directly on GitHub Releases:
+👉 **[Download Latest Release Package (.zip)](https://github.com/Real3rr0r303YT/NothingOS-4.1-Rollback-Phone-3a-pro/releases/latest/download/NothingOS-4.1-Rollback-Phone-3a.zip)**
 
-### Option 1: Download ZIP
-1. Click the green **`Code`** button at the top right of this GitHub page.
-2. Select **`Download ZIP`**.
-3. Extract the downloaded ZIP file on your PC.
-
-### Option 2: Git Clone
-Run the following command in your terminal:
-```bash
-git clone https://github.com/Real3rr0r303YT/NothingOS-4.1-Rollback-Phone-3a-pro.git
-```
+*(Or download it directly from the Releases section on the right side of this repo).*
 
 ---
 
@@ -66,13 +58,9 @@ git clone https://github.com/Real3rr0r303YT/NothingOS-4.1-Rollback-Phone-3a-pro.
 
 This repository is licensed under the **GNU General Public License v3.0 (GPL-3.0)** - see the [LICENSE](LICENSE) file for details.
 
-### What this means:
-- 🔓 **Open Source:** Anyone can view, use, and contribute to this repository.
-- 🛡️ **Anti-Theft Protection:** Nobody can take your code/scripts, hide them, or sell them without keeping the source code open under the exact same GPL-3.0 license.
-
 ---
 
-## ☕ Support / Spenden
+## ☕ Support / Donation
 
 If this project helped unbrick or restore your Nothing Phone (3a), consider supporting:
 
