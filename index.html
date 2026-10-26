@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nothing OS 4.1 Rollback - Nothing Phone (3a)</title>
+  <style>
+    :root {
+      --bg-color: #0a0a0a;
+      --card-bg: #141414;
+      --text-main: #f0f0f0;
+      --text-muted: #888888;
+      --accent: #d71921;
+      --border: #222222;
+      --font-mono: 'Courier New', Courier, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px dashed var(--border);
+      padding-bottom: 2rem;
+    }
+
+    h1 {
+      font-family: var(--font-mono);
+      font-size: 2.2rem;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .download-section {
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      background: linear-gradient(180deg, rgba(215,25,33,0.05) 0%, rgba(20,20,20,1) 100%);
+      border: 1px solid #2a1517;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      background: var(--text-main);
+      color: var(--bg-color);
+      padding: 0.85rem 1.8rem;
+      font-family: var(--font-mono);
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+
+    .btn:hover {
+      background: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-coffee {
+      background: #FFDD00;
+      color: #000000;
+    }
+
+    .btn-coffee:hover {
+      background: #ffe536;
+      box-shadow: 0 4px 15px rgba(255, 221, 0, 0.2);
+    }
+
+    .warning-box {
+      border-left: 4px solid var(--accent);
+      background: #180c0d;
+      padding: 1rem;
+      border-radius: 0 4px 4px 0;
+      margin-bottom: 1.5rem;
+    }
+
+    .warning-box strong {
+      color: var(--accent);
+    }
+
+    h2 {
+      font-family: var(--font-mono);
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+
+    ol {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.8rem;
+    }
+
+    code {
+      background: #000;
+      color: #00ff66;
+      font-family: var(--font-mono);
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 3rem;
+      border-top: 1px dashed var(--border);
+      padding-top: 1.5rem;
+    }
+
+    .support-section {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    .license-badge {
+      display: inline-block;
+      background: #222;
+      color: #aaa;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      border-radius: 3px;
+      font-family: var(--font-mono);
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Nothing OS 4.1 Rollback</h1>
+      <p class="subtitle">Official Downgrade & Stock Firmware Package for <strong>Nothing Phone (3a)</strong></p>
+      <span class="license-badge">License: GPL-3.0 Open Source</span>
+    </header>
+
+    <div class="warning-box">
+      <strong>⚠️ IMPORTANT WARNING:</strong> Returning to stock firmware using the rollback script will <strong>COMPLETELY WIPE ALL DATA</strong> on your device. Ensure you have backed up all important files before proceeding.
+    </div>
+
+    <div class="card download-section">
+      <h2>Download Rollback Package (~6GB)</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">The package is split into multiple parts due to file size limits. Download all parts from our official release page.</p>
+      <a href="https://github.com/Real3rr0r303YT/NothingOS-4.1-Rollback-Phone-3a-pro/releases/tag/v4.1" target="_blank" class="btn">
+        📦 Go to GitHub Releases (All Parts)
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>🚀 Installation & Extraction Guide</h2>
+      <ol>
+        <li><strong>Download All Parts:</strong> Go to the Release page above and download all split archive parts into the same folder on your device.</li>
+        <li><strong>Extract with ZArchiver / 7-Zip:</strong> 
+          <ul>
+            <li><em>On Android (ZArchiver):</em> Open ZArchiver, select the first part of the archive (e.g. <code>.zip</code> or <code>.z01</code> / <code>.001</code>), tap it, and select <strong>"Extract here"</strong>. The app automatically detects all parts and merges them.</li>
+            <li><em>On PC (7-Zip / WinRAR):</em> Keep all parts in one folder, right-click the main file, and select 7-Zip -> <strong>Extract Here</strong>.</li>
+          </ul>
+        </li>
+        <li><strong>Boot into Fastboot:</strong> Turn off your phone, then hold <code>Volume Down + Power</code> until the Fastboot screen appears.</li>
+        <li><strong>Connect & Flash:</strong> Plug your phone into your PC, open the extracted folder, and execute <strong><code>flash_all.bat</code></strong>. Your device will flash and reboot into Nothing OS 4.1.</li>
+      </ol>
+    </div>
+
+    <div class="card support-section">
+      <h2>☕ Support the Project</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1rem; font-size: 0.95rem;">
+        If this rollback package helped you restore your phone, consider supporting the development!
+      </p>
+      <a href="https://buymeacoffee.com/3rr0r303YT" target="_blank" class="btn btn-coffee">
+        💛 Buy Me a Coffee
+      </a>
+    </div>
+
+    <footer>
+      <p>Open Source Community Release | Licensed under GNU General Public License v3.0</p>
+    </footer>
+  </div>
+
+</body>
+</html>
