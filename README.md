@@ -67,3 +67,5 @@ If this project helped unbrick or restore your Nothing Phone (3a), consider supp
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-3rr0r303YT-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/3rr0r303YT)
 
 - 💛 **Buy Me A Coffee:** [https://buymeacoffee.com/3rr0r303YT](https://buymeacoffee.com/3rr0r303YT)
+
+<p align="center"><b>Made by <a href="https://github.com/Real3rr0r303YT">Real3rr0r303YT</a></b></p>
